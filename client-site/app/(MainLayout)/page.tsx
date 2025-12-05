@@ -1,9 +1,12 @@
 import React from 'react';
+import Navbar from './../../components/commonPart/Navbar';
+import Footer from './../../components/commonPart/Footer';
 
 const page = () => {
     return (
         <div>
-            Hello, This is Main Layout Page.
+            <Navbar />
+            <Footer />
         </div>
     );
 };
