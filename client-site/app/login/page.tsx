@@ -1,7 +1,7 @@
 import Login from '@/components/login/Login';
 import React from 'react';
 
-const page = () => {
+const LoginPage = () => {
     return (
         <div className="min-h-screen  flex items-center justify-center bg-background text-foreground">
             <Login />
@@ -9,4 +9,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default LoginPage;
