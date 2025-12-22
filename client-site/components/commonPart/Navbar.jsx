@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className='bg-[#3F8AFF]'>
              <div className='flex justify-between' >
                 <div>BRUR</div>
-                <div>Login</div>
+                <Link href='/login'> Login </Link>
             </div>
             <div className="navbar  shadow-sm">
 
